@@ -1,0 +1,147 @@
+*
+{
+    margin:0px;
+    padding: 0px;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: 'Source Serif Pro', serif;
+    /* align-items: center; */
+}
+
+body
+{
+    height: 100vh;
+    width: 100vw;
+    background-color: #edf1fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+li
+{
+    list-style: none;
+    cursor: pointer;
+}
+a{
+    text-decoration:none;
+}
+button
+{
+    background-color: #129b9b;
+    padding: 4px,10px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 600px;
+    width: fit-content;
+}
+button:hover
+{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+nav
+{
+    display: flex;
+    width: 100%;
+    align-items:center;
+    justify-content: space-around;
+}
+nav.logo 
+{
+    font-weight: 700px;
+    font-size: 30px;
+}
+nav ul
+{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font: weight 500px;;
+}
+nav ul li:hover
+{
+    font-weight: 900px;
+    text-decoration: underline;
+}
+.search
+{
+    display: flex;
+    gap: 35px;
+}
+input
+{
+    padding: 4px,10px;
+}
+.hero-section
+{
+    display: flex;
+    align-items: center;
+}
+.hero-left-section
+{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.hero-left-section h1 span
+{
+    color: rgb(18,155,155);
+    font-weight: 900px;
+    font-size: 2.5rem;
+    align-items: center;
+}
+.hero-left-section p
+{
+    font-weight: 500;
+}
+.hero-left-section p span
+{
+    font-weight: 500;
+    font-size: 25px;
+    color: #129b9b;
+}
+
+.hero-right-section
+{
+    display:flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: end;
+    justify-content: end;
+    /* gap: 30px; */
+}
+.hero-right-section-btns
+{
+    display: flex;
+    align-items:end;
+    gap: 30px;
+}
+.hero-right-section img
+{
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
+}
+
+footer
+{
+    display: flex;
+    align-items: center;
+    padding: 20px  0;
+    justify-content: space-around;
+}
+footer p
+{
+    font-weight: 600px;
+}
+footer ul
+{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    size: 100px;
+}
+

@@ -1,0 +1,39 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav
+{
+    display: flex;
+    gap: 60%;
+    padding-left: 5%;
+    margin-top: 2%;
+}
+.hea
+{
+    height: 25px;
+    width: 75px;
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    cursor: pointer;
+    /* border: 2px solid rgb(54, 37, 37); */
+}
+.hea:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+.form
+{
+    background-color:gray;
+    margin-left: 45%;
+    margin-top: 10%;
+    width: 11.49%;
+    box-shadow:10px 0 10px 5px gray;
+}

@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav
+{
+    display: flex;
+    gap: 60%;
+    padding-left: 5%;
+    margin-top: 2%;
+}
+.hea
+{
+    height: 25px;
+    width: 75px;
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    cursor: pointer;
+    /* border: 2px solid rgb(54, 37, 37); */
+}
+.hea:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+main{
+    display: flex;
+}
+.left
+{
+    width: 100%;
+    margin-top: 12%;
+    margin-left: 10%;
+}
+h1
+{
+    font-size: 40px;
+}
+p
+{
+    font-size: 19px;
+}
+.bottom
+{
+    margin-left: 85%;
+    margin-top: 2%;
+}
+.m
+{
+    margin-left: 92%;
+    margin-top: 2%;
+}
+.make
+{
+    height: 40px;
+    width: 50%;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #20bc7e;
+    margin-top: -15%;
+    margin-left: 15%;
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.green
+{
+    width: 60%;
+    margin-left: 50%;
+    margin-top: 20%;
+}
+.yellow
+{
+    margin-top: -50%;
+    margin-left: 60%;
+    width: 50%;
+    height: 40%;
+}
+.dr 
+{
+    height: 40%;
+    width: 60%;
+    margin-left: 50%;
+    margin-top: -70%;
+}
+.photo
+{
+    margin-top: -10px;
+    margin-left: -10%;
+    width: 100%;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
