@@ -53,4 +53,4 @@ function letWorking(){
     console.log(x)
     let x;
     console.log(x)
-}
+} 
